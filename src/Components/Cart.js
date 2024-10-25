@@ -8,11 +8,6 @@ function Cart () {
     let totalPrices= carts.reduce((acc, item) => {
         return acc += item.price 
     }, 0)
-    console.log(totalPrices)
-    let result = 0;
-    for (let i = 0; i < carts.length; i++) {
-        result += carts[i].price 
-    }
     let i = 1;
     let dispatch = useDispatch()
     return (

@@ -16,7 +16,7 @@ function Products() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchProducts())
-  }, [])
+  })
   return (
     <Container>
         <Row>
