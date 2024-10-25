@@ -28,7 +28,7 @@ function Products() {
                     <Card.Title>{product.title}</Card.Title>
                     <Card.Text> {product.description}
                     </Card.Text>
-                    <Button onClick={() => dispatch(addToCart(product))} variant="primary">Details</Button>
+                    <Button onClick={() => dispatch(addToCart(product))} variant="primary">More Details</Button>
                 </Card.Body>
             </Card>
             </Col>
